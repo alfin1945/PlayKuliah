@@ -6,7 +6,7 @@
 
 body{
     background: #CEFF09;
-    font-family: Sans-serif;
+    font-family: 'Kanit', sans-serif;
 }
 
 .header{
@@ -20,7 +20,7 @@ body{
 
 .header p span{
     color: #FC9201;
-    font-side:15px;
+    font-size:15px;
 }
 
 .header h1{
@@ -35,14 +35,9 @@ body{
 
 .container{
     display: flex;
-    /* display:solid; */
     height: 400px;
-    widht: 800px;
-    /* border: 1px solid #f5f5f5   ; */
     margin: 30px ;
     justify-content: center
-    /* margin-top: px; */
-    /* border-radius: 10px */
 }
 
 form{
@@ -50,11 +45,10 @@ form{
     flex-direction: column;
     width:30%;
     background-color: #f5f5f5;
-    /* border-radius:10px 0px 0px 10px */
 }
 
 form h2{
-    font-size: 2rem;
+    font-size: 1,5rem;
     text-align: center;
     margin-top: 35px
 }
@@ -69,7 +63,8 @@ form .input input{
 
 form .input label{
     margin:0px 20px;
-    padding:8px
+    padding:8px;
+    font-size: 12px;
 }
 
 input[type="username"],
@@ -80,20 +75,23 @@ input[type="password"]{
     border:none;
     background: #F5F5F5;
     cursor:pointer;
+    font-family: 'Kanit', sans-serif;
 }
 
 input[type="submit"]{
-    /* margin:0px 50px; */
-    margin:20px 100px;
+    margin: 30px 10px 10px 10px;
     padding:7px;
-    border-radius:100px;
+    transform: translateX(10px);
     outline: none;
-    /* border:none; */
-    background: #F5F5F5;
-    width:40%;
-    /* align-items: csenter; */
+    border: none;
+    background: #aaf710;
+    font-size: 12px;
+    font-weight: 600;
+    color: #2d2d2d;
+    border-radius: 4px;
+    width:85%;
     cursor:pointer;
-    border-color: ;
+    font-family: 'Kanit', sans-serif;
 }
 
 input[type="submit"]:hover{
@@ -110,12 +108,15 @@ input[type="submit"]:hover{
 
 .login p{
     text-align: center;
-    color: #818080;
+    font-size: 12px;
+    margin-top: 5px;
+    color: #7c7c7c;
 }
 
 .login p a{
     text-decoration:none;
-    color: #CDFF00;
+    color: #90dc03;
+    font-weight: bold;
 }
 
 .login p a:hover{
